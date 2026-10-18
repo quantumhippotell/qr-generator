@@ -1,0 +1,51 @@
+{
+    "name":  "qr-generator",
+    "logo":  "🔳",
+    "exe":  "QrGenerator.exe",
+    "desc":  "Free, open-source QR code generator for Windows — offline codes for links, Wi-Fi and contacts, export PNG or SVG. 100 MB portable, MIT.",
+    "topics":  [
+                   "qr-code-generator",
+                   "qr-maker",
+                   "offline-qr",
+                   "wifi-qr",
+                   "vcard-qr",
+                   "batch-qr",
+                   "qr-code",
+                   "utilities",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "qrencode-alternative",
+                   "svg-export",
+                   "business",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Template types** — URL, text, Wi-Fi join, vCard contact, email and SMS payloads built from forms",
+                     "✅ **Error-correction control** — L to H levels with live preview of density so damaged prints still scan",
+                     "✅ **PNG and SVG export** — vector output for print shops, 128 to 2048 px PNG for screens",
+                     "✅ **Batch from CSV** — generate hundreds of codes from a spreadsheet column with auto-naming",
+                     "✅ **Quiet zone and styling** — margin, foreground and background colors, rounded module toggle",
+                     "✅ **Scan-test pane** — internal decoder verifies the code reads before you print it",
+                     "✅ **100 MB self-contained exe** — runtime and encoding libraries bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **qr-generator** | QR Generator | qrencode | QRStuff |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Freemium | Free, OSS | Paid |",
+                    "| Open source | **Yes** | No | Yes | No |",
+                    "| Wi-Fi and vCard templates | **Yes** | Paid tier | Manual string | Paid tier |",
+                    "| SVG for print | **Yes** | Paid tier | Yes | Yes |",
+                    "| Batch from CSV | **Yes** | No | Scripted | No |",
+                    "| Portable GUI, offline | **Yes, 100 MB** | Web | CLI | Web |"
+                ],
+    "faqQ":  "how to generate QR codes offline without uploading data?",
+    "faqA":  "Most QR sites make you paste passwords and Wi-Fi keys into a form that logs them, which is exactly wrong for a Wi-Fi join code. qr-generator builds codes locally from templates, exports SVG for print and even scan-tests the result before you ship it. It is a 100 MB portable exe, MIT, fully offline.",
+    "s1":  "Dark studio (#121417, yellow #FDE047): template picker left (URL, Wi-Fi, vCard), form fields center, QR preview right with error-correction selector.",
+    "s2":  "Wi-Fi template filled: SSID and password fields masked, security dropdown WPA2, join QR rendering with logo-free preview at 512 px.",
+    "s3":  "Batch panel: CSV preview with three columns, naming pattern field, 240 codes progress bar at 57 percent, export folder selection."
+}
